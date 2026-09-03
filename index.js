@@ -5,8 +5,8 @@ const TOKEN = '8769656490:AAGCOTdL7B3z36754HdQ3pC09hKZQ50f4e8';
 const ADMIN_ID = 7262941693;
 
 // BURANI ÖZÜNÜNKİ İLƏ DƏYİŞ
-const SUPABASE_URL = 'https://xxxxx.supabase.co';
-const SUPABASE_KEY = 'BURAYA_SERVICE_ROLE_KEY_YI_QOY';
+const SUPABASE_URL = 'https://xecgteqlwwskqfyxtojv.supabase.co/rest/v1/';
+const SUPABASE_KEY = 'sb_publishable_TzGahL2QbpM87R4WVM1cyg_QTYUoNef';
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 const bot = new TelegramBot(TOKEN, {polling: true});
